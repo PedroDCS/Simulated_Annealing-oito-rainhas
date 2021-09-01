@@ -14,7 +14,11 @@ import math
 from timeit import default_timer as timer
 
 # Quantidade de rainhas
-qtdRainhas = 3
+qtdRainhas = 16
+
+# Codigo baseado no seguinte repositorios
+#https://github.com/tolgahanakgun/School-Projects/blob/master/Computatinal%20Intelligence/8Queens_Simulated_Annealing/eightqueens.py
+
 
 # Classe usada para gerar o tabuleiro
 class board:
